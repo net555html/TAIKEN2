@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>ウイルス体験</title>
+    <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
+
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style2.css">
+    <style type="text/css">
+    <!--
+    body {
+            background-color: black;
+    }
+    h1 {
+            color: white;
+            background-color: gray;
+        }
+    h2 {
+            color: white;
+            background-color: black;
+        }
+    h3 {
+            color: white;
+            background-color: aqua;
+        }
+    .btn {
+        background: #EEE;
+        border-top: 1px solid #DDD;
+        border-left: 1px solid #DDD;
+        border-right: 1px solid #BBB;
+        border-bottom: 1px solid #BBB;
+        color:#111;
+        width: 100px;
+        padding: 3px 0;
+    }
+    -->
+
+    </style>
+<SCRIPT TYPE="text/javascript">
+
+function enable_button(){
+    document.getElementById("button1").value = "　　　開く　　　";
+    document.getElementById("button1").disabled = "";
+    //target = document.getElementById("install");
+    document.getElementById("install").innerHTML="インストールが完了しました";
+    //target = document.getElementById("install2");
+    document.getElementById("install2").innerHTML="　　- <font size ='3' color='blue'>開くボタンを押してください</font> -<img src='http://www.ne.senshu-u.ac.jp/~proj28-19/tasa/troy/image/shield.png' width='3%'' />";
+}
+
+</SCRIPT>
+</head>
+<div class="boxA">
+<div class="box3">
+  <article class="kiji">
+
+ <body onLoad="setTimeout('enable_button()', 5200)">
+<h1 align="center"><img src="http://www.ne.senshu-u.ac.jp/~proj28-19/tasa/troy/image/shield.png" /><font size="7">shindan</font></h1>
+<h2><font size="5">　</font></h2>
+
+<center><img src="http://www.ne.senshu-u.ac.jp/~proj28-19/tasa/troy/image/shield.png" />
+<img src="http://www.ne.senshu-u.ac.jp/~proj28-19/tasa/troy/install.gif" width="400px" alt="18" /></center>
+
+<center><h2><div id="install">インストール中です</div>　</h2></center>
+
+
+<h2><font size="５">　</font></h2>
+
+
+<form action="file:///home/chronos/u-f10b36d4d1e005423f2fa823888f1d5fb36fef72/MyFiles/Untitled%202.html" method="get">
+   <H1 align="center">　　　　<input type="button"  id="button2" onclick="location.href = 'file:///home/chronos/u-f10b36d4d1e005423f2fa823888f1d5fb36fef72/MyFiles/Untitled%202.html?'" value="　キャンセル　" > 　<input type="submit"  id="button1" value="　インストール中　" ><div id="install2">　　-<font size ='3' color='red'>このままお待ちください</font> -</div></H1>
+</form>
+<p align="center">　　　　　　<FONT COLOR="white" SIZE="2">*緑のバーが動いていなければ再読み込みしてください</FONT></p>
+</article>
+</div>
+</div>
+
+
+<script language="JavaScript">
+   document.getElementById("button1").value = "　インストール中　";　　　
+   document.getElementById("button1").disabled = "disabled";
+</script>
+</body>
+</html>
